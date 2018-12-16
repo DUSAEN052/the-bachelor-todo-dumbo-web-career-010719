@@ -12,7 +12,7 @@ def get_contestant_name(data, occupation)
   data.each do |season|
     season.each do |person|
       person.each do |info|
-        puts "#{info}"
+        puts info
       end
     end
   end
