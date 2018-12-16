@@ -52,5 +52,5 @@ def get_average_age_for_season(data, season)
     total += person["age"].to_i
     counter += 1
   end
-  total.
+  total.fdiv(counter).ceil
 end
