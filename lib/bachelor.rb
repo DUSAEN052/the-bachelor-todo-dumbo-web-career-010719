@@ -10,8 +10,10 @@ end
 def get_contestant_name(data, occupation)
   # code here
   data.each do |season|
-    season.each do |key, val|
-      puts "#{key}, #{val}"
+    season.each do |person|
+      person.each do |info|
+        puts "#{info}"
+      end
     end
   end
 end
