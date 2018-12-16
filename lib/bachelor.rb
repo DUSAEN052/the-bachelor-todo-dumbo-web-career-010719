@@ -11,7 +11,7 @@ def get_contestant_name(data, occupation)
   # code here
   data.each do |season|
     season.each do |person, info|
-      puts person[0]
+      puts person
     end
   end
 end
