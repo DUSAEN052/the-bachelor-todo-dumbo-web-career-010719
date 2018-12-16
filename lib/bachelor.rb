@@ -12,6 +12,8 @@ def get_contestant_name(data, occupation)
   data.each do |season|
     season.each do |key, val|
       puts "#{key}, #{val}"
+    end
+  end
 end
 
 def count_contestants_by_hometown(data, hometown)
