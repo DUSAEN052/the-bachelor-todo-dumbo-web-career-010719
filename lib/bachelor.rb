@@ -10,7 +10,7 @@ end
 def get_contestant_name(data, occupation)
   # code here
   data.each do |season|
-    puts season[0]
+    puts season[1]
     return
   end
 end
